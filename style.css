@@ -35,12 +35,13 @@ body {
 }
 
 .hero {
-    width: 30px;
-    height: 30px;
-    background-color: red;
     position: absolute;
+    background-color: red;
     top: 95%;
     left: 50%;
+    width: 30px;
+    height: 30px;
+
     margin: -20px 0 0 -20px;
     border-radius: 100%;
 }
