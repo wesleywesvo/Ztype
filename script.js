@@ -5,7 +5,13 @@ import helper from './helper.js'
 const maxWordCount = 5; // maximum word count attacking
 
 // word database
-const wordList = ['door', 'pen', 'half', 'hotel', 'run', 'rush', 'zero'];
+//const wordList = ['door', 'pen', 'half', 'hotel', 'run', 'rush', 'zero'];
+var randomWords = require('random-words');
+console.log(randomWords());
+const wordList = [];
+for (let i = 0; i < 100; i++) {
+	wordList.push(randomWords());
+}
 
 const words = [];
 let score = 0;
