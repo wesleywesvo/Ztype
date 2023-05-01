@@ -20,7 +20,7 @@ body {
 }
 
 .word {
-    color: green;
+    color: #ffffff;
     position: absolute;
     top: 95%;   /* location of where the word is going to ie: position of hero*/
     left: 50%;
