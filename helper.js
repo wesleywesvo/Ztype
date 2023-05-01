@@ -11,12 +11,10 @@ helper.random = (min, max) => {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
-helper.wrapper = document.getElementById("wrapper");
-
 /*
-    Diagonal distance of view for spawn area
+    wrapper variable
 */
-helper.radius = Math.sqrt(helper.ww * helper. ww + helper.wh * helper.wh) / 4;
+helper.wrapper = document.getElementById("wrapper");
 
 
 

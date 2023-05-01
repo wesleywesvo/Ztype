@@ -37,8 +37,7 @@ class Word {
 	}
 
 	resetStartPosition() {
-		const wrapElem = document.getElementById('wrapper');
-		const wrapElemRect = wrapElem.getBoundingClientRect();
+		const wrapElemRect = helper.wrapper.getBoundingClientRect();
 
 		let x = helper.random(0, 250) + this.el.offsetHeight / 2;
 		x *= Math.round(Math.random()) ? 1 : -1;
