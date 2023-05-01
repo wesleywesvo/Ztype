@@ -1,19 +1,12 @@
 import Word from './word.js';
 import helper from './helper.js'
 
+import wordList from './wordList.js'; 	// word database
+
 
 const maxWordCount = 5; // maximum word count attacking
 
-// word database
-//const wordList = ['door', 'pen', 'half', 'hotel', 'run', 'rush', 'zero'];
-var randomWords = require('random-words');
-console.log(randomWords());
-const wordList = [];
-for (let i = 0; i < 100; i++) {
-	wordList.push(randomWords());
-}
-
-const words = [];
+const words = [];		//active words attacking
 let score = 0;
 let scoreElement = document.getElementById('score');
 
